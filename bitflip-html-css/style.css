@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpg);
+    height: 1000px;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 450px;
+    height: 500px;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #000;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.container input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container input[type=text], .container input[type=password]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    opacity: 1;
+    color: #000;
+
+}
+
+.container input[type=submit]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #c864f6 ;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container input[type=submit]:hover{
+    cursor: pointer;
+}
+
+.container a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(92, 89, 89);
+    opacity: 0.8;
+}
+
+.container a:hover{
+    color: #000;
+    opacity: 1;
+}
+
+.item{
+    color: #000;
+
+}
+
+.item input{
+    width: 10%;
+    float: left;
+}
+
+.item a{
+    float: right;
+}
